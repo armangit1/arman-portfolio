@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0F0715;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 10px;
+  font-size: 17px;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  
+}
+nav a:hover {
+  color: #8750F7;
+  transform: scale(1.05);
+  transition: all 300ms;
+  /* slightly zooms on hover */
+
+}
+ul li a:hover {
+  color: #8750F7;
+  transform: scale(1.05); /* slightly zooms on hover */
+}
+
