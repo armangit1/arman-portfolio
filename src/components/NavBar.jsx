@@ -31,7 +31,7 @@ const NavBar = () => {
     return (
         <div className={`w-full max-w-[1300px] z-20   ${lastScrollY >= 100 ? 'bg-[#0d0513]' : ' bg-[#0F0715]'}  fixed to-0%  ${scrollDirection === "down" ? 'hidden' : "block"}`} >
             <nav className="flex items-center justify-between  w-full p-4  text-white">
-                <div className="flex items-center"> <a href="/"> <img src="/logo.jpg" className='rounded-full  md:w-16 w-14' alt="" /></a> <p className='text-xl hidden lg:block ml-3'>aharmankhan333@gmail.com</p> </div>
+                <div className="flex items-center"> <a href="/"> <img src="/logo.jpg" className='rounded-full  md:w-16 w-14' alt="" /></a> <p className=' hidden lg:block ml-3'>aharmankhan333@gmail.com</p> </div>
                 <div className="hidden md:flex justify-evenly space-x-2 xl:space-x-8">
                     <a href="#service" className="">Service</a>
                     <a href="#project" className="">Projects</a>

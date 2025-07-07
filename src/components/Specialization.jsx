@@ -12,16 +12,16 @@ const Specialization = () => {
 
 
     return (
-        <div id='service'>
-            <h1 className='md:text-6xl text-3xl  bg-gradient-to-r from-[#8A55F8] to-white text-transparent bg-clip-text ml-10 mt-14'>My Specialization</h1>
+        <div id='service' className='mt-16 '>
+      <h1 className='md:text-5xl text-3xl inline bg-gradient-to-r from-[#8A55F8] to-white text-transparent bg-clip-text mt-12 ml-2'>My Specialization</h1>
 
 
             <div className='grid md:grid-cols-2 p-5  gap-8  pb-10 '>
 
-                <div data-aos="zoom-in-right"  className='border-[#3c2d5c] border  hover:border-[#A074F9]  hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
+                <div data-aos="zoom-in-right"  className='border-[#3c2d5c] border group  hover:border-[#A074F9]  hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
                     <div className='w-full bg-[#2A1454] rounded-t-2xl p-5 flex items-center justify-between'>
-                        <div className='bg-[#5631A0] p-5 rounded-xl'>
-                            <IoCodeSlash className='text-3xl' />
+                        <div className='bg-[#5631A0] p-5 rounded-xl group-hover:rotate-12'>
+                            <IoCodeSlash className='text-3xl '  />
                         </div>
                     </div>
                     <h1 className='text-3xl font-semibold mt-5 ml-5'>Full Stack Website Development</h1>
@@ -31,9 +31,9 @@ const Specialization = () => {
                     </p>
                 </div>
 
-                <div data-aos="zoom-in-left" className='border-[#3c2d5c] border hover:border-[#A074F9] hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
+                <div data-aos="zoom-in-left" className='border-[#3c2d5c] group border hover:border-[#A074F9]  hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
                     <div className='w-full bg-[#2A1454] rounded-t-2xl p-5 flex items-center justify-between'>
-                        <div className='bg-[#5631A0] p-5 rounded-xl'>
+                        <div className='bg-[#5631A0] p-5 group-hover:rotate-12 rounded-xl'>
                             <MdOutlineDesignServices className='text-3xl' />
                         </div>
                     </div>
@@ -43,9 +43,9 @@ const Specialization = () => {
                       Crafting responsive and visually engaging websites using Figma and Framer, tailored to unique client needs and brand identity
                     </p>
                 </div>
-                <div data-aos="zoom-in-right" className='border-[#3c2d5c] border hover:border-[#A074F9]   hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
+                <div data-aos="zoom-in-right" className='border-[#3c2d5c] border group hover:border-[#A074F9]   hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
                     <div className='w-full bg-[#2A1454] rounded-t-2xl p-5 flex items-center justify-between'>
-                        <div className='bg-[#5631A0] p-5 rounded-xl'>
+                        <div className='bg-[#5631A0] p-5 group-hover:rotate-12 rounded-xl'>
                             <AiFillDatabase className='text-3xl' />
                         </div>
                     </div>
@@ -55,9 +55,9 @@ const Specialization = () => {
                       Building robust backends using Laravel (PHP) and managing relational databases like MySQL. Experienced in developing RESTful APIs, admin panels, and ensuring data security and performance.
                     </p>
                 </div>
-                <div data-aos="zoom-in-left" className='border-[#3c2d5c] border hover:border-[#A074F9]  hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
+                <div data-aos="zoom-in-left" className='border-[#3c2d5c] border group hover:border-[#A074F9]  hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
                     <div className='w-full bg-[#2A1454] rounded-t-2xl p-5 flex items-center justify-between'>
-                        <div className='bg-[#5631A0] p-5 rounded-xl'>
+                        <div className='bg-[#5631A0] p-5 group-hover:rotate-12 rounded-xl'>
                             <TbApi className='text-3xl' />
                         </div>
                     </div>

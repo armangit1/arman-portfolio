@@ -10,15 +10,15 @@ const Profile = () => {
     
 
     return (
-        <div className='mx-2 pt-40'>
-            <div className='md:flex p-5 border rounded-2xl group border-[#3c2d5c] pb-10 '>
+        <div className='mx-2 pt-30'>
+            <div className='md:flex p-5 border rounded-2xl group border-[#2A1454] bg-[#140C1C] pb-10 '>
                 <div>
                     <img src="/profile.jpg" className='w-[325px] mx-auto rounded-2xl  group-hover:border group-hover:border-[#8750F7] hover:shadow-sm group-hover:shadow-[#8750F7]'
                         alt="" />
 
                 </div>
                 <div>
-                    <h1 className='lg:text-6xl md:text-5xl text-3xl font-bold text-[#A074F9] ml-10 mt-10'>
+                    <h1 className='lg:text-6xl md:text-5xl text-3xl font-semibold bg-gradient-to-r  from-[#8A55F8] to-white text-transparent bg-clip-text  ml-10 mt-10'>
                         Hi, I am Web <br />
                         Developer + Designer
                     </h1>

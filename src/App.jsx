@@ -8,6 +8,8 @@ import Skills from "./components/Skills"
 import Specialization from "./components/Specialization"
 import BlogCard from "./components/BlogCard"
 import Footer from "./components/Footer"
+import StatsSection from "./components/StatsSection"
+import ProjectCard from "./components/ProjectCard"
 
 
 
@@ -16,22 +18,28 @@ function App() {
   return (
     <div className="bg-[#0F0715]">
       <div className="max-w-[1300px] mx-auto ">
-        
-          <NavBar></NavBar>
-      
+
+        <NavBar></NavBar>
+
 
         <Profile></Profile>
-        <Specialization></Specialization>
+
+        {/* <StatsSection></StatsSection> */}
+         <Specialization></Specialization>
         <Skills></Skills>
-        <RecentProjects></RecentProjects>
+        <ProjectCard></ProjectCard>
+       
+       
+
+
         <Education></Education>
         <Contact></Contact>
         <BlogCard></BlogCard>
 
 
       </div>
-       <ToastContainer position="top-center" autoClose={2000} />
-       <Footer></Footer>
+      <ToastContainer position="top-center" autoClose={2000} />
+      <Footer></Footer>
     </div>
 
   )

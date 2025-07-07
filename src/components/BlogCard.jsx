@@ -21,7 +21,7 @@ const BlogCard = () => {
             description: '🔧 8 Essential React Hooks You Must Know',
             category: 'React',
             image: 'https://media.licdn.com/dms/image/v2/D5622AQH5OW_DeRF7Mw/feedshare-shrink_1280/B56ZfMgGaxHEAk-/0/1751482656927?e=1754524800&v=beta&t=pt1KaurE2r8rvvsDBtNJoC3IjK8py88KYIK9sTA6jII',
-            url:'https://www.linkedin.com/posts/arman-khan-in_8-essential-react-hooks-you-must-know-activity-7346250717411594242-e1w7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER2_GkBp6RG9b6e6PtGrCtoYD5yQw5pS44'
+            url: 'https://www.linkedin.com/posts/arman-khan-in_8-essential-react-hooks-you-must-know-activity-7346250717411594242-e1w7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER2_GkBp6RG9b6e6PtGrCtoYD5yQw5pS44'
         },
         {
             id: 3,
@@ -39,13 +39,11 @@ const BlogCard = () => {
     return (
         <div id="blogs" className='mt-20' >
 
-            <div data-aos="flip-left" className='mt-10 mx-2'>
-                <h1 className='md:text-6xl text-3xl text-center text-[#A074F9] mt-10'>My Blogs</h1>
-                <p className="text-[#ebe5f7] text-sm md:text-md text-center mt-5 max-w-2xl mx-auto">
-                    Welcome to my blog section where I share insights, tips, and tutorials on web development, design trends, and the latest technologies.
-                    Dive in and explore topics that fuel innovation and creativity.
-                </p>          
-                  </div>
+            <div data-aos="flip-left" className='mt-10 mx-2 flex flex-col'>
+                <div className='inline-flex justify-center'>
+                    <h1 className='md:text-5xl text-3xl text-center  bg-gradient-to-r  from-[#8A55F8] to-white text-transparent bg-clip-text mt-10'>My Blogs</h1></div>
+                <p className='text-[#ebe5f7] md:text-md text-center  mt-5'>Welcome to my blog section where I share insights, tips, and tutorials on web development, design trends, and the latest technologies. <br /> Dive in and explore topics that fuel innovation and creativity.</p>
+            </div>
 
 
 
@@ -55,7 +53,7 @@ const BlogCard = () => {
 
                     blogData.map(data => {
                         return (
-                            <div  data-aos="zoom-in" className="max-w-sm rounded-2xl  overflow-hidden mx-auto my-3  bg-[#1A1021] text-white shadow-lg">
+                            <div data-aos="zoom-in" className="max-w-sm rounded-2xl  overflow-hidden mx-auto my-3  bg-[#1A1021] text-white shadow-lg">
                                 <div className="relative">
                                     <img
                                         src={data.image} // Replace with actual blog image URL

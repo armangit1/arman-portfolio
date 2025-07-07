@@ -1,6 +1,7 @@
 import React from 'react';
 import Iframe from 'react-iframe'
 
+
 const RecentProjects = () => {
 
 
@@ -11,24 +12,24 @@ const RecentProjects = () => {
             "use": ["React", "React-router", "Firebase", "Aos", "tailwind css"],
             "live": "https://trivago-nu.vercel.app/",
             "code": "https://github.com/armangit1/hoteltrivago",
-          
+
         },
-            {
+        {
             "name": "Hockey's",
             "des": " This is a responsive front-end website for a professional hockey club  ",
-            "use": ["Html","JavaSrcipt", "Tailwind css", "Daisyui"],
+            "use": ["Html", "JavaSrcipt", "Tailwind css", "Daisyui"],
             "live": "https://hockey-s-rho.vercel.app/",
             "code": "https://github.com/armangit1/Hockey-s"
         },
-     
+
         {
             "name": "Go Ticket",
             "des": "Go Ticket is a modern ticket booking website for bus transportation in Bangladesh.",
-            "use": ["Html","JavaSrcipt", "Tailwind css", "Daisyui"],
+            "use": ["Html", "JavaSrcipt", "Tailwind css", "Daisyui"],
             "live": "https://go-ticket.vercel.app/",
             "code": "https://github.com/armangit1/Go-Ticket"
         },
-    
+
 
     ]
 
@@ -48,39 +49,44 @@ const RecentProjects = () => {
                                     display="block"
                                     position="relative" />
 
-                                    <h1 className='text-2xl font-bold m-2'>{data?.name}</h1>
-                                    <p className='text-md text-[#bec1c5] '>{data?.des}</p>
+                                <h1 className='text-2xl font-bold m-2'>{data?.name}</h1>
+                                <p className='text-md text-[#bec1c5] '>{data?.des}</p>
 
-                                    <div className='flex flex-wrap gap-2 mt-5'>
-                                               {
-                                        data.use.map((item,index)=>{
-                                            return(
+                                <div className='flex flex-wrap gap-2 mt-5'>
+                                    {
+                                        data.use.map((item, index) => {
+                                            return (
                                                 <button className=' px-4 py-1 rounded-3xl bg-[#1E2939]' key={index}>
-                                            { item
-                                                }</button>
+                                                    {item
+                                                    }</button>
                                             )
                                         })
                                     }
-                                    </div>
+                                </div>
 
-                                    <div className='flex space-x-3 mt-5 '>
-                                         <a href={data?.live} target='_blank' className='px-4 py-1 rounded-3xl bg-[#5c23cea4] hover:bg-[#896cc4] '>Live</a>
-                                         <a href={data?.code} target='_blank' className='px-4 py-1 rounded-3xl bg-[#743fdd36] hover:bg-[#743fdd79]'>Client Code</a>
-                                         {
-                                            data.server ?   <a href={data?.server} target='_blank' className='px-4 py-1 rounded-3xl bg-[#743fdd36]  hover:bg-[#743fdd79]'>Server Code</a> : ""
-                                         }
+                                <div className='flex space-x-3 mt-5 '>
+                                    <a href={data?.live} target='_blank' className='px-4 py-1 rounded-3xl bg-[#5c23cea4] hover:bg-[#896cc4] '>Live</a>
+                                    <a href={data?.code} target='_blank' className='px-4 py-1 rounded-3xl bg-[#743fdd36] hover:bg-[#743fdd79]'>Client Code</a>
+                                    {
+                                        data.server ? <a href={data?.server} target='_blank' className='px-4 py-1 rounded-3xl bg-[#743fdd36]  hover:bg-[#743fdd79]'>Server Code</a> : ""
+                                    }
 
 
 
-                                    </div>
+                                </div>
 
-                                 
+
 
                             </div>
 
                         )
                     })
                 }
+
+
+
+
+
 
 
 
