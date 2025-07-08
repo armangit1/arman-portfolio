@@ -95,7 +95,7 @@ const Contact = () => {
                             <textarea name="message" className='    w-full p-2 outline-0 mt-10' placeholder='Message' id="" ></textarea>
 
                             {
-                                loding ? <>  <button className='inline-flex items-center md:px-6 md:py-3 px-3 py-2  cursor-not-allowed rounded-4xl border duration-300 border-[#8750F7] t bg-[#8750F7]  hover:text-gray-300  mt-10'>
+                                loding ? <>  <button type='button' className='inline-flex items-center md:px-6 md:py-3 px-3 py-2   cursor-not-allowed rounded-4xl border duration-300 border-[#8750F7] t bg-[#8750F7]  hover:text-gray-300  mt-10'>
                                     Sent Message
                                     <span className="loading loading-spinner ml-1 text-white"></span>
                                 </button></> : <>  <button type='submit' className='inline-flex items-center md:px-6 md:py-3 px-3 py-2 rounded-4xl border duration-300 border-[#8750F7] hover:bg-transparent bg-[#8750F7]  hover:text-gray-300  mt-10'>
