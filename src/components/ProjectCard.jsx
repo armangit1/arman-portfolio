@@ -9,6 +9,7 @@ const ProjectCard = () => {
     <div className='m-2 mt-16'>
       <h1 className='md:text-5xl text-3xl inline bg-gradient-to-r from-[#8A55F8] to-white text-transparent bg-clip-text mt-10'>Recent Projects</h1>
 
+{/* frist project */}
       <div className=" p-3 md:p-7 rounded-2xl mt-10 bg-[#140C1C] border border-[#2A1454]  text-white flex flex-col lg:flex-row gap-10 items-start">
         {/* Left content */}
         <div className="flex-1 space-y-4">
@@ -70,7 +71,7 @@ const ProjectCard = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-2  space-x-1  '>
 
-        <div className=" p-3 md:p-7 rounded-2xl mt-10 bg-[#140C1C] border border-[#2A1454]  text-white flex flex-col  gap-10 items-start">
+        <div className=" p-3 md:p-7 rounded-2xl mt-8 bg-[#140C1C] border border-[#2A1454]  text-white flex flex-col  gap-10 items-start">
 
           <div className="flex-1 w-full ">
             <img
@@ -118,7 +119,7 @@ const ProjectCard = () => {
 
 
         {/* ============================================== */}
-        <div className=" p-3 md:p-7 rounded-2xl mt-10 bg-[#140C1C] border border-[#2A1454]  text-white flex flex-col  gap-10 items-start">
+        <div className=" p-3 md:p-7 rounded-2xl mt-8 bg-[#140C1C] border border-[#2A1454]  text-white flex flex-col  gap-10 items-start">
 
           <div className="flex-1 w-full ">
             <img

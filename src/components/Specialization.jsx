@@ -18,7 +18,7 @@ const Specialization = () => {
 
             <div className='grid md:grid-cols-2 p-5  gap-8  pb-10 '>
 
-                <div data-aos="zoom-in-right"  className='border-[#3c2d5c] border group  hover:border-[#A074F9]  hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
+                <div data-aos="zoom-in-right"  className='border-[#2A1454] border group  hover:border-[#A074F9] bg-[#140c1ca8] hover:bg-[#140C1C]  hover:shadow-sm duration-300  pb-10  mt-3 rounded-2xl'>
                     <div className='w-full bg-[#2A1454] rounded-t-2xl p-5 flex items-center justify-between'>
                         <div className='bg-[#5631A0] p-5 rounded-xl group-hover:rotate-12'>
                             <IoCodeSlash className='text-3xl '  />
@@ -31,7 +31,7 @@ const Specialization = () => {
                     </p>
                 </div>
 
-                <div data-aos="zoom-in-left" className='border-[#3c2d5c] group border hover:border-[#A074F9]  hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
+                <div data-aos="zoom-in-left" className='border-[#2A1454] group border hover:border-[#A074F9] bg-[#140c1ca8]  hover:bg-[#140C1C] hover:shadow-sm duration-300  pb-10  mt-3 rounded-2xl'>
                     <div className='w-full bg-[#2A1454] rounded-t-2xl p-5 flex items-center justify-between'>
                         <div className='bg-[#5631A0] p-5 group-hover:rotate-12 rounded-xl'>
                             <MdOutlineDesignServices className='text-3xl' />
@@ -43,7 +43,7 @@ const Specialization = () => {
                       Crafting responsive and visually engaging websites using Figma and Framer, tailored to unique client needs and brand identity
                     </p>
                 </div>
-                <div data-aos="zoom-in-right" className='border-[#3c2d5c] border group hover:border-[#A074F9]   hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
+                <div data-aos="zoom-in-right" className='border-[#2A1454] border group hover:border-[#A074F9] bg-[#140c1ca8] hover:bg-[#140C1C]  hover:shadow-sm duration-300  pb-10  mt-3 rounded-2xl'>
                     <div className='w-full bg-[#2A1454] rounded-t-2xl p-5 flex items-center justify-between'>
                         <div className='bg-[#5631A0] p-5 group-hover:rotate-12 rounded-xl'>
                             <AiFillDatabase className='text-3xl' />
@@ -55,7 +55,7 @@ const Specialization = () => {
                       Building robust backends using Laravel (PHP) and managing relational databases like MySQL. Experienced in developing RESTful APIs, admin panels, and ensuring data security and performance.
                     </p>
                 </div>
-                <div data-aos="zoom-in-left" className='border-[#3c2d5c] border group hover:border-[#A074F9]  hover:shadow-sm hover:shadow-[#A074F9] duration-300  pb-10  mt-3 rounded-2xl'>
+                <div data-aos="zoom-in-left" className='border-[#2A1454] border group hover:border-[#A074F9] bg-[#140c1ca8]  hover:bg-[#140C1C] hover:shadow-sm duration-300  pb-10  mt-3 rounded-2xl'>
                     <div className='w-full bg-[#2A1454] rounded-t-2xl p-5 flex items-center justify-between'>
                         <div className='bg-[#5631A0] p-5 group-hover:rotate-12 rounded-xl'>
                             <TbApi className='text-3xl' />

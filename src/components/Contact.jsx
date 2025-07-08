@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import { BsGithub } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
@@ -9,35 +9,73 @@ import { toast } from 'react-toastify';
 
 
 const Contact = () => {
- // অথবা 'emailjs/browser'
 
-const sentMessage = (e) => {
-  e.preventDefault();
-
-  emailjs.sendForm(
-    import.meta.env.VITE_EMAILJS_SERVICE_ID,
-    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-    e.target,
-    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-  )
-  .then((result) => {
-    console.log(result.text);
-    toast.success("✅ Message Sent Successfully");
-    e.target.reset();
-  }, (error) => {
-    console.log(error.text);
-    toast.error("❌ Failed to send message");
-  });
+    const [loding, setLoding] = useState(false);
 
 
 
-};
+    const sentMessage = (e) => {
+        e.preventDefault();
+        setLoding(true); // ✅ Corrected from "loding(true)"
+
+        const form = e.target;
+        const name = form.name.value.trim();
+        const lastname = form.lastname.value.trim();
+        const email = form.email.value.trim();
+        const phone = form.phone.value.trim();
+        const message = form.message.value.trim();
+
+        // ✅ Basic validation
+        if (!name || !lastname || !email || !phone || !message) {
+            toast.error("❌ Please fill in all fields");
+            setLoding(false);
+            return;
+        }
+
+        // ✅ Email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            toast.error("❌ Please enter a valid email address");
+            setLoding(false);
+            return;
+        }
+
+        // ✅ Phone number validation (minimum 10 digits)
+        const phoneRegex = /^[0-9]{10,15}$/;
+        if (!phoneRegex.test(phone)) {
+            toast.error("❌ Please enter a valid phone number");
+            setLoding(false);
+            return;
+        }
+
+
+        emailjs
+            .sendForm(
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+                e.target,
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+            )
+            .then((result) => {
+                console.log(result.text);
+                toast.success("✅ Message Sent Successfully");
+                e.target.reset();
+            })
+            .catch((error) => {
+                console.error(error.text || error.message);
+                toast.error("❌ Failed to send message");
+            })
+            .finally(() => {
+                setLoding(false); // ✅ Ensure it runs after sendForm completes
+            });
+    };
+
 
 
 
     return (
         <div id='contact' className='mt-20 m-2'>
-            <div className='md:grid md:grid-cols-2  p-16 border rounded-2xl group border-[#3c2d5c] pb-8 '>
+            <div className='md:grid md:grid-cols-2 bg-[#140C1C]  p-16 border rounded-2xl group border-[#2A1454] pb-8 '>
                 <div>
                     <h1 data-aos="fade-up" className='md:text-5xl text-3xl bg-gradient-to-r  from-[#8A55F8] to-white text-transparent bg-clip-text '>
                         Let’s work
@@ -56,10 +94,15 @@ const sentMessage = (e) => {
                             <input type="number" name='phone' className=' border-b border-[#636363] focus:border-[#8A55F8] w-full p-2 outline-0 mt-8' placeholder='Phone Number' />
                             <textarea name="message" className='    w-full p-2 outline-0 mt-10' placeholder='Message' id="" ></textarea>
 
-                            <button type='submit' className='inline-flex items-center md:px-6 md:py-3 px-3 py-2 rounded-4xl border duration-300 border-[#8750F7] hover:bg-transparent bg-[#8750F7]  hover:text-gray-300  mt-10'>
-                                Sent Message
-                                <MdOutlineArrowOutward className='ml-1 text-xl' />
-                            </button>
+                            {
+                                loding ? <>  <button className='inline-flex items-center md:px-6 md:py-3 px-3 py-2  cursor-not-allowed rounded-4xl border duration-300 border-[#8750F7] t bg-[#8750F7]  hover:text-gray-300  mt-10'>
+                                    Sent Message
+                                    <span className="loading loading-spinner ml-1 text-white"></span>
+                                </button></> : <>  <button type='submit' className='inline-flex items-center md:px-6 md:py-3 px-3 py-2 rounded-4xl border duration-300 border-[#8750F7] hover:bg-transparent bg-[#8750F7]  hover:text-gray-300  mt-10'>
+                                    Sent Message
+                                    <MdOutlineArrowOutward className='ml-1 text-xl' />
+                                </button></>
+                            }
                         </form>
                     </div>
 

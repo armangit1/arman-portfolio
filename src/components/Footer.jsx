@@ -9,11 +9,11 @@ const Footer = () => {
                     <img src="/logo.jpg" className='w-16 rounded-full' alt="" />
             </div>
                 <div className=" flex justify-evenly space-x-2 xl:space-x-8 mt-5">
-                    <a href="#service" className="">Service</a>
-                    <a href="#project" className="">Projects</a>
-                    <a href="#skills" className="">Skills</a>
-                    <a href="#contact" className="">Contact</a>
-                    <a href="#blogs" className=" ">Blogs</a>
+                    <a href="#service" className="hover:underline duration-300">Service</a>
+                    <a href="#project" className="hover:underline duration-300">Projects</a>
+                    <a href="#skills" className="hover:underline duration-300">Skills</a>
+                    <a href="#contact" className="hover:underline duration-300">Contact</a>
+                    <a href="#blogs" className=" hover:underline duration-300">Blogs</a>
                  
                 </div>
                 <div>
