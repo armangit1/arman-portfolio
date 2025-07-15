@@ -6,7 +6,7 @@ import gotravel from '../../src/assets/gotravel.png'
 
 const ProjectCard = () => {
   return (
-    <div className='m-2 mt-16'>
+    <div id='project' className='m-2 mt-16'>
       <h1 className='md:text-5xl text-3xl inline bg-gradient-to-r from-[#8A55F8] to-white text-transparent bg-clip-text mt-10'>Recent Projects</h1>
 
 {/* frist project */}
