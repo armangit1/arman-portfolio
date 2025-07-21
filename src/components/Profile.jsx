@@ -34,7 +34,7 @@ const Profile = () => {
 
                         <div className='flex gap-5 ml-10 mt-5'>
                             <a
-                                href="https://www.facebook.com/arman.khan.401"
+                                href="https://www.facebook.com/armaneffect"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="GitHub Profile"
@@ -43,7 +43,7 @@ const Profile = () => {
                                 <FaFacebookF className="text-xl" />
                             </a>
                             <a
-                                href="https://github.com/armangit1"
+                                href="https://github.com/armaneffect"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="GitHub Profile"
@@ -52,7 +52,7 @@ const Profile = () => {
                                 <BsGithub className="text-xl" />
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/arman-khan-in/"
+                                href="https://www.linkedin.com/in/armaneffect"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="GitHub Profile"
