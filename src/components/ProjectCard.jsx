@@ -35,9 +35,9 @@ const ProjectCard = () => {
           <div className="mt-4">
 
             <div className="flex flex-wrap gap-3 mt">
-              <a href='https://job-portal-94hj.vercel.app' target='_blank' className="bg-[#4c18b3a4] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Live</a>
-              <a href='https://github.com/armangit1/hoteltrivago' target='_blank' className="bg-[#1f427580] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Client</a>
-              <a href='https://github.com/armangit1/hoteltrivago-server' target='_blank' className="bg-[#1f427580] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Server</a>
+              <a href='https://jobportal-bangladesh.vercel.app/' target='_blank' className="bg-[#4c18b3a4] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Live</a>
+              <a href='https://github.com/armaneffect/job-portal' target='_blank' className="bg-[#1f427580] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Client</a>
+              <a href='https://github.com/armaneffect/job-portal-server' target='_blank' className="bg-[#1f427580] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Server</a>
 
 
             </div>
