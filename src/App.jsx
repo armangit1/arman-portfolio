@@ -16,7 +16,7 @@ import ProjectCard from "./components/ProjectCard"
 function App() {
 
   return (
-    <div className="bg-[#0F0715]">
+    <div className="bg-color">
       <div className="max-w-[1300px] mx-auto ">
 
         <NavBar></NavBar>

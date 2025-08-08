@@ -29,7 +29,7 @@ const NavBar = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <div className={`w-full max-w-[1300px] z-20   ${lastScrollY >= 100 ? 'bg-[#0d0513]' : ' bg-[#0F0715]'}  fixed to-0%  ${scrollDirection === "down" ? 'hidden' : "block"}`} >
+        <div className={`w-full max-w-[1300px] z-20   ${lastScrollY >= 100 ? 'bg-[#0d05139c]' : ' bg-[#0d051300]'}  fixed to-0%  ${scrollDirection === "down" ? 'hidden' : "block"}`} >
             <nav className="flex items-center justify-between  w-full p-4  text-white">
                 <div className="flex items-center "> <a href="mailto:aharmankhan333@gmail.com" className="tooltip tooltip-bottom" data-tip="Email"> <img src="/logo.jpg" className='rounded-full  md:w-16 w-14' alt="" /></a> <span className='hidden lg:block ml-3'> <a href='mailto:aharmankhan333@gmail.com' >aharmankhan333@gmail.com</a> </span></div>
                 <div className="hidden md:flex justify-evenly space-x-2 xl:space-x-8">

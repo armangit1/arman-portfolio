@@ -11,9 +11,9 @@ const Profile = () => {
 
     return (
         <div className='mx-2 pt-30'>
-            <div className='md:flex p-5 border rounded-2xl group border-[#2A1454] bg-[#140C1C] pb-10 '>
+            <div className='md:flex p-5 border rounded-2xl group border-[#2A1454]  pb-10 '>
                 <div>
-                    <img src="/profile.jpg" className='w-[325px] mx-auto rounded-2xl  group-hover:border group-hover:border-[#8750F7] hover:shadow-sm group-hover:shadow-[#8750F7]'
+                    <img src="/profile2.jpg" className='w-[325px] mx-auto rounded-2xl  group-hover:border group-hover:border-[#8750F7] hover:shadow-sm group-hover:shadow-[#8750F7]'
                         alt="" />
 
                 </div>

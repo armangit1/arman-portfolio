@@ -9,10 +9,16 @@ html {
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #0F0715;
   margin: 0;
   padding: 0;
 
+
+
+}
+
+.bg-color {
+background: #0F0715;
+background: linear-gradient(62deg, rgba(15, 7, 21, 1) 0%, rgba(15, 7, 21, 1) 65%, rgba(39, 22, 68, 1) 100%);
 }
 
 nav a {
@@ -23,8 +29,9 @@ nav a {
   display: inline-flex;
   align-items: center;
   font-weight: 600;
-  
+
 }
+
 nav a:hover {
   color: #8750F7;
   transform: scale(1.05);
@@ -32,10 +39,9 @@ nav a:hover {
   /* slightly zooms on hover */
 
 }
+
 ul li a:hover {
   color: #8750F7;
-  transform: scale(1.05); /* slightly zooms on hover */
+  transform: scale(1.05);
+  /* slightly zooms on hover */
 }
-
-
-

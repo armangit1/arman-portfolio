@@ -11,7 +11,7 @@ const BlogCard = () => {
             title: 'laravel for Beginners ',
             description: 'লারাভেল শেখার আগে কিছু মৌলিক বিষয় জানতে হবে ',
             category: 'laravel',
-            image: 'https://media.licdn.com/dms/image/v2/D5622AQFyxzEio7z3gA/feedshare-shrink_800/B56ZVU9asVGUAk-/0/1740887142846?e=1754524800&v=beta&t=AY0BjWPr0G1n86ZXW3_NSlJLCFp8p4Ev9TKuW3I-t9c',
+            image: 'https://media.licdn.com/dms/image/v2/D5622AQFyxzEio7z3gA/feedshare-shrink_800/B56ZVU9asVGUAk-/0/1740887142846?e=1757548800&v=beta&t=mxofyr57IVVAGzwxmLmpoUx0F8dEZyPV7osFnIhsCYE',
             url: 'https://www.linkedin.com/posts/arman-khan-in_%E0%A6%B2%E0%A6%B0%E0%A6%AD%E0%A6%B2-%E0%A6%B6%E0%A6%96%E0%A6%B0-%E0%A6%86%E0%A6%97-%E0%A6%95%E0%A6%9B-%E0%A6%AE%E0%A6%B2%E0%A6%95-%E0%A6%AC%E0%A6%B7%E0%A7%9F-%E0%A6%9C%E0%A6%A8%E0%A6%A4-%E0%A6%B9%E0%A6%AC-activity-7301809914031575040-d30K?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER2_GkBp6RG9b6e6PtGrCtoYD5yQw5pS44'
         },
         {
@@ -20,7 +20,7 @@ const BlogCard = () => {
             title: 'Mastering React Hooks',
             description: '🔧 8 Essential React Hooks You Must Know',
             category: 'React',
-            image: 'https://media.licdn.com/dms/image/v2/D5622AQH5OW_DeRF7Mw/feedshare-shrink_1280/B56ZfMgGaxHEAk-/0/1751482656927?e=1754524800&v=beta&t=pt1KaurE2r8rvvsDBtNJoC3IjK8py88KYIK9sTA6jII',
+            image: 'https://media.licdn.com/dms/image/v2/D5622AQH5OW_DeRF7Mw/feedshare-shrink_1280/B56ZfMgGaxHEAk-/0/1751482656927?e=1757548800&v=beta&t=yafGRAXGwM1g68gDlCiIK99fCIorMwpWajE5DKy0wj4',
             url: 'https://www.linkedin.com/posts/arman-khan-in_8-essential-react-hooks-you-must-know-activity-7346250717411594242-e1w7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER2_GkBp6RG9b6e6PtGrCtoYD5yQw5pS44'
         },
         {
@@ -29,7 +29,7 @@ const BlogCard = () => {
             title: 'Why Use Next.js?',
             description: 'Here are some compelling reasons why Next.js is a great choice for modern web development:',
             category: 'Next.js',
-            image: 'https://media.licdn.com/dms/image/v2/D5622AQEl9UxFgOlztA/feedshare-shrink_800/B56ZfMjjVHHoAk-/0/1751483561802?e=1754524800&v=beta&t=kaJ2o2-5bqFIbV9OJpL5oZZws_PS8ZCKjU1bq1yVIvM',
+            image: 'https://media.licdn.com/dms/image/v2/D5622AQEl9UxFgOlztA/feedshare-shrink_2048_1536/B56ZfMjjVHHoAs-/0/1751483561814?e=1757548800&v=beta&t=GnT-Qy11UT48p_AKPGIDwmjdHZKEbTDd--fPuKKRJNY',
             url: 'https://www.linkedin.com/posts/arman-khan-in_why-use-nextjs-here-are-some-compelling-activity-7346254514049400832-yg3A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAER2_GkBp6RG9b6e6PtGrCtoYD5yQw5pS44'
         },
     ];
