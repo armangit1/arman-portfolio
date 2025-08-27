@@ -38,18 +38,18 @@ const NavBar = () => {
                     <a href="#skills" className="">Skills</a>
                     <a href="#contact" className="">Contact</a>
                     <a href="#blogs" className=" ">Blogs</a>
-                    <a href="/resume.pdf" >
-                        <a href='https://docs.google.com/document/d/1qVMCTLDWtl7fjUCYkx1tuxaXNL3DsM7VCufVkcelP4M/edit?usp=sharing' className="flex items-center  px-5 py-2 rounded-4xl bg-[#8750F7] text-white  hover:bg-transparent border border-[#8750F7] duration-300">
+                    <a href="https://drive.google.com/file/d/1d9mo2t_88V0KKIDL7YVWYpIhU0P-8SIR/view?usp=sharing" >
+                        <span className="flex items-center  px-5 py-2 rounded-4xl bg-[#8750F7] text-white  hover:bg-transparent border border-[#8750F7] duration-300">
 
                             Resume
                             <MdOutlineFileDownload className='ml-2' />
-                        </a>
+                        </span>
                     </a>
                 </div>
 
                 <div className="md:hidden flex items-center">
 
-                    <a href="/resume.pdf" >
+                    <a href="https://drive.google.com/file/d/1d9mo2t_88V0KKIDL7YVWYpIhU0P-8SIR/view?usp=sharing" >
                         <span className="flex items-center  px-5 py-2 rounded-4xl bg-[#8750F7] text-white  hover:bg-transparent border border-[#8750F7] duration-300">
 
                             Resume
