@@ -27,7 +27,7 @@ const Profile = () => {
 
                     </p>
                     <div className='sm:flex mt-5 items-center'>
-                        <a href="/resume.pdf" className='inline-flex items-center px-6 py-3 rounded-4xl border duration-300 border-[#8750F7] hover:bg-transparent bg-[#8750F7]  hover:text-gray-300 ml-10 mt-5'>
+                        <a href="https://docs.google.com/document/d/1qVMCTLDWtl7fjUCYkx1tuxaXNL3DsM7VCufVkcelP4M/edit?usp=sharing"  className='inline-flex items-center px-6 py-3 rounded-4xl border duration-300 border-[#8750F7] hover:bg-transparent bg-[#8750F7]  hover:text-gray-300 ml-10 mt-5'>
                             Hire Me!
                             <MdOutlineArrowOutward className='ml-2 text-xl' />
                         </a>

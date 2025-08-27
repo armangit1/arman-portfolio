@@ -39,11 +39,11 @@ const NavBar = () => {
                     <a href="#contact" className="">Contact</a>
                     <a href="#blogs" className=" ">Blogs</a>
                     <a href="/resume.pdf" >
-                        <span className="flex items-center  px-5 py-2 rounded-4xl bg-[#8750F7] text-white  hover:bg-transparent border border-[#8750F7] duration-300">
+                        <a href='https://docs.google.com/document/d/1qVMCTLDWtl7fjUCYkx1tuxaXNL3DsM7VCufVkcelP4M/edit?usp=sharing' className="flex items-center  px-5 py-2 rounded-4xl bg-[#8750F7] text-white  hover:bg-transparent border border-[#8750F7] duration-300">
 
                             Resume
                             <MdOutlineFileDownload className='ml-2' />
-                        </span>
+                        </a>
                     </a>
                 </div>
 
