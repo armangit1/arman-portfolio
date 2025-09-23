@@ -1,7 +1,8 @@
 import React from 'react';
-import jobportal from '../../src/assets/jobportal.png'
+
 import trivago from '../../src/assets/trivago.png'
 import gotravel from '../../src/assets/gotravel.png'
+import cozynest from '../../src/assets/cozynest.png'
 
 
 const ProjectCard = () => {
@@ -14,19 +15,19 @@ const ProjectCard = () => {
         {/* Left content */}
         <div className="flex-1 space-y-4">
           <p className="text-purple-400 text-sm">Social App</p>
-          <h2 className="text-3xl font-bold">Job Portal</h2>
+          <h2 className="text-3xl font-bold">Cozy Nest</h2>
           <p className="text-gray-300">
-            This Job Portal is a full-stack web application designed to streamline the job search and recruitment process.
-            It allows users to browse job listings, apply for jobs, and track their applications, while employers can post new openings and manage candidates.
+            Cozy Nest is a full-stack web application designed to help users find and book their ideal vacation rentals.
+            It allows users to browse listings, view property details, and make reservations, while hosts can manage their listings and bookings.
             Built with modern technologies, the platform ensures a seamless user experience, secure authentication, and real-time data interactions.
           </p>
 
           {/* Tags */}
           <div className="flex flex-wrap gap-3 mt-4">
-            <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">React</span>
-            <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">Express</span>
-            <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">MongoDB</span>
-            <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">Firebase</span>
+            <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">Laravel</span>
+            <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">Mysql</span>
+            <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">Blade</span>
+            <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">Breeze</span>
             <span className="bg-[#1E2939] text-sm px-4 py-1 rounded-full">Tailwindcss</span>
           </div>
 
@@ -35,11 +36,8 @@ const ProjectCard = () => {
           <div className="mt-4">
 
             <div className="flex flex-wrap gap-3 mt">
-              <a href='https://jobportal-bangladesh.vercel.app/' target='_blank' className="bg-[#4c18b3a4] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Live</a>
-              <a href='https://github.com/armaneffect/job-portal' target='_blank' className="bg-[#1f427580] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Client</a>
-              <a href='https://github.com/armaneffect/job-portal-server' target='_blank' className="bg-[#1f427580] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Server</a>
-
-
+              <a href='https://github.com/armaneffect/CozyNest' target='_blank' className="bg-[#4c18b3a4] hover:bg-[#896cc4] text-md px-4 py-1 rounded-full">Code</a>
+             
             </div>
 
             <div className="flex items-center gap-3 mt-5">
@@ -59,7 +57,7 @@ const ProjectCard = () => {
         {/* Right content (image) */}
         <div className="flex-1 w-full ">
           <img
-            src={jobportal} // Replace with actual image path
+            src={cozynest} // Replace with actual image path
             alt="Project Preview"
             className="rounded-xl border border-gray-700 shadow-lg"
           />

@@ -24,12 +24,12 @@ function App() {
 
         <Profile></Profile>
 
-        {/* <StatsSection></StatsSection> */}
-         <Specialization></Specialization>
+        <StatsSection></StatsSection>
+        <Specialization></Specialization>
         <Skills></Skills>
         <ProjectCard></ProjectCard>
-       
-       
+
+
 
 
         <Education></Education>

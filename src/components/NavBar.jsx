@@ -38,7 +38,7 @@ const NavBar = () => {
                     <a href="#skills" className="">Skills</a>
                     <a href="#contact" className="">Contact</a>
                     <a href="#blogs" className=" ">Blogs</a>
-                    <a href="https://drive.google.com/file/d/1d9mo2t_88V0KKIDL7YVWYpIhU0P-8SIR/view?usp=sharing" >
+                    <a href="https://drive.google.com/file/d/1GZEFTGCbzBs08eUBSKJHiuc8JSoAdmUa/view?usp=sharing" >
                         <span className="flex items-center  px-5 py-2 rounded-4xl bg-[#8750F7] text-white  hover:bg-transparent border border-[#8750F7] duration-300">
 
                             Resume
@@ -49,7 +49,7 @@ const NavBar = () => {
 
                 <div className="md:hidden flex items-center">
 
-                    <a href="https://drive.google.com/file/d/1d9mo2t_88V0KKIDL7YVWYpIhU0P-8SIR/view?usp=sharing" >
+                    <a href="https://drive.google.com/file/d/1GZEFTGCbzBs08eUBSKJHiuc8JSoAdmUa/view?usp=sharing" >
                         <span className="flex items-center  px-5 py-2 rounded-4xl bg-[#8750F7] text-white  hover:bg-transparent border border-[#8750F7] duration-300">
 
                             Resume

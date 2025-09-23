@@ -26,8 +26,8 @@ const Specialization = () => {
                     </div>
                     <h1 className='text-3xl font-semibold mt-5 ml-5'>Full Stack Website Development</h1>
 
-                    <p className='text-[#ebe5f7] md:text-md mt-5 ml-5'>
-                      Developing dynamic and scalable websites using Laravel and **MERN stack** (MongoDB, Express, React, Node.js), with a focus on performance, SEO, and mobile responsiveness.
+                    <p className='text-[#ebe5f7] md:text-md mt-5 ml-5 pr-1'>
+                     Skilled in building dynamic and scalable web applications using Laravel, React, and Next.js, with MySQL as the database and expertise in designing and integrating RESTful APIs, focusing on performance, SEO, and mobile responsiveness.
                     </p>
                 </div>
 
